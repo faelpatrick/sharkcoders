@@ -4,7 +4,7 @@
       <v-container>
         <div class="d-flex justify-center align-centerr">
 
-          <h1 class="text-h5 mb-6" style="color: #8f88ba;">
+          <h1 class="text-h5 font-weight-bold mb-6" style="color: #8f88ba;">
             {{ nomeTurma || 'Turma não encontrada' }}
           </h1>
           <v-spacer />

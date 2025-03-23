@@ -5,7 +5,7 @@
 				<div class="d-flex justify-center align-centerr">
 
 					<h1 class="text-h5 mb-4 w-100" style="color: #8f88ba;">
-						Projetos de {{ nomeAluno }}
+						{{ nomeAluno }}
 					</h1>
 					<v-divider class="mb-4" color="#fff1" />
 					<v-btn class="mb-4" color="#8f88ba" variant="outlined" prepend-icon="mdi-arrow-left" @click="$router.back()">
