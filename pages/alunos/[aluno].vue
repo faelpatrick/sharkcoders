@@ -43,31 +43,31 @@ const nomeAluno = deslugify(route.params.aluno)
 // Mapeamento de projetos por aluno (slug)
 const projetosPorAluno = {
 	'pedro-tomas-ribeiro-moura': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147600234/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
 	],
 	'jose-pedro-pereira-santos': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147603884/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147603884' },
 	],
 	'diana-oliveira-mota': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147607415/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147607415' },
 	],
 	'franco-emmanuel-lagman': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147598472/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147598472' },
 	],
 	'afonso-goncalves-afonso': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147602123/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147602123' },
 	],
 	'lisa-silva-krol': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599174/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
 	],
 	'eduardo-goncalves-correia': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599302/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599302' },
 	],
 	'avan': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599972/' },
+		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599972' },
 	],
 	'professor': [
-		{ titulo: 'Projeto do Professor', link: 'https://scratch.mit.edu/projects/1146906303/' },
+		{ titulo: 'Projeto do Professor', link: 'https://scratch.mit.edu/projects/1146906303' },
 	],
 
 }
