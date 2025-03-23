@@ -14,8 +14,8 @@
         </div>
 
 
-        <v-list lines="one">
-          <v-list-item v-for="aluno in alunos" :key="aluno" :title="aluno" :to="`/alunos/${slugify(aluno)}`" />
+        <v-list lines="one" class="rounded pa-8">
+          <v-list-item v-for="aluno in alunos" :key="aluno" class="mb-4 text-h3 rounded" style="background-color: #8f88ba; color: #fff;" :title="aluno" :to="`/alunos/${slugify(aluno)}`" />
 
         </v-list>
       </v-container>
