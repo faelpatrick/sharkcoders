@@ -32,14 +32,14 @@ const turmas = {
   'code-kids': {
     nome: 'CODE KIDS LOGIC & CODING',
     alunos: [
-      'Afonso Gonçalves Afonso',
-      'Diana Oliveira Mota',
-      'Edgar Habibi',
-      'Eduardo Gonçalves Correia',
-      'Franco Emmanuel Lagman',
-      'José Pedro Pereira Santos',
-      'Lisa Silva Krol',
-      'Pedro Tomás Ribeiro Moura',
+      'Afonso',
+      'Avan',
+      'Diana',
+      'Eduardo',
+      'Franco',
+      'José',
+      'Lisa',
+      'Tomás',
     ]
 
   },

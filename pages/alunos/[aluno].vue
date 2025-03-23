@@ -14,15 +14,14 @@
 				</div>
 
 				<v-row v-if="projetos.length" class="d-flex justify-center">
-					<v-col
-v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
+					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
 						class="d-flex flex-column align-center">
 						<v-card :href="projeto.link" target="_blank" color="#8f88ba" dark>
 							<!-- icone do scratch -->
-					
+
 							<v-card-title>
 								{{ projeto.titulo }}
-								<v-icon >mdi-arrow-right</v-icon> 
+								<v-icon>mdi-arrow-right</v-icon>
 							</v-card-title>
 						</v-card>
 					</v-col>
@@ -49,29 +48,29 @@ const nomeAluno = deslugify(route.params.aluno)
 
 // Mapeamento de projetos por aluno (slug)
 const projetosPorAluno = {
-	'pedro-tomas-ribeiro-moura': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
-	],
-	'jose-pedro-pereira-santos': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147603884' },
-	],
-	'diana-oliveira-mota': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147607415' },
-	],
-	'franco-emmanuel-lagman': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147598472' },
-	],
-	'afonso-goncalves-afonso': [
+	'afonso': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147602123' },
 	],
-	'lisa-silva-krol': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
+	'avan': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599972' },
 	],
-	'eduardo-goncalves-correia': [
+	'diana': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147607415' },
+	],
+	'eduardo': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599302' },
 	],
-	'edgar-habibi': [
-		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599972' },
+	'franco': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147598472' },
+	],
+	'jose': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147603884' },
+	],
+	'lisa': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
+	],
+	'tomas': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
 	],
 	'professor': [
 		{ titulo: 'Projeto do Professor', link: 'https://scratch.mit.edu/projects/1146906303' },
