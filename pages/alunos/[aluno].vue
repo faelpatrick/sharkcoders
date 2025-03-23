@@ -81,6 +81,12 @@ const projetosPorAluno = {
 	'taciane': [
 		{ titulo: 'Site: Primeiro Site', link: 'https://taciane.vercel.app/' },
 	],
+	'vitoria': [
+		{ titulo: 'Site: Primeiro Site', link: 'https://meeple-topaz.vercel.app/' },
+	],
+	'vicente': [
+		{ titulo: 'Projetos Python', link: 'https://github.com/Imetralha1/Imetralha2' },
+	],
 
 }
 
