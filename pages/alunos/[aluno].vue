@@ -2,9 +2,16 @@
 	<v-app>
 		<v-main class="bg-black text-white">
 			<v-container>
-				<h1 class="text-h5 mb-4" style="color: #8f88ba;">
-					Projetos de {{ nomeAluno }}
-				</h1>
+				<div class="d-flex justify-center align-centerr">
+
+					<h1 class="text-h5 mb-4" style="color: #8f88ba;">
+						Projetos de {{ nomeAluno }}
+					</h1>
+					<v-divider class="mb-4" />
+					<v-btn class="mb-4" color="#8f88ba" variant="outlined" prepend-icon="mdi-arrow-left" @click="$router.back()">
+						Voltar
+					</v-btn>
+				</div>
 
 				<v-row v-if="projetos.length">
 					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6">

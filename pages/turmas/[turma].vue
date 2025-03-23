@@ -2,9 +2,17 @@
   <v-app>
     <v-main class="bg-black text-white">
       <v-container>
-        <h1 class="text-h5 mb-6" style="color: #8f88ba;">
-          {{ nomeTurma || 'Turma não encontrada' }}
-        </h1>
+        <div class="d-flex justify-center align-centerr">
+
+          <h1 class="text-h5 mb-6" style="color: #8f88ba;">
+            {{ nomeTurma || 'Turma não encontrada' }}
+          </h1>
+          <v-spacer />
+          <v-btn class="mb-4" color="#8f88ba" variant="outlined" prepend-icon="mdi-arrow-left" @click="$router.back()">
+            Voltar
+          </v-btn>
+        </div>
+
 
         <v-list lines="one">
           <v-list-item v-for="aluno in alunos" :key="aluno" :title="aluno" :to="`/alunos/${slugify(aluno)}`" />

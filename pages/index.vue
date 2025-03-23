@@ -5,7 +5,7 @@
 				<v-img src="/sharkcoders-logo.png" max-width="200" class="mx-auto mb-6" />
 				<v-img src="/faelpatrick.png" max-width="150" class="mx-auto mb-10 rounded-circle " />
 
-				<h1 class="text-h5 mb-6" style="color: #8f88ba;">Minhas Turmas</h1>
+				<h1 class="text-h5 mb-6" style="color: #8f88ba;">Turmas do Prof. Rafael</h1>
 
 				<v-row justify="center" dense>
 					<v-col v-for="turma in turmas" :key="turma.nome" cols="12" sm="6" md="3">
