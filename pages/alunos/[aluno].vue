@@ -4,24 +4,26 @@
 			<v-container>
 				<div class="d-flex justify-center align-centerr">
 
-					<h1 class="text-h5 mb-4" style="color: #8f88ba;">
+					<h1 class="text-h5 mb-4 w-100" style="color: #8f88ba;">
 						Projetos de {{ nomeAluno }}
 					</h1>
-					<v-divider class="mb-4" />
+					<v-divider class="mb-4" color="#fff1" />
 					<v-btn class="mb-4" color="#8f88ba" variant="outlined" prepend-icon="mdi-arrow-left" @click="$router.back()">
 						Voltar
 					</v-btn>
 				</div>
 
-				<v-row v-if="projetos.length">
-					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
+				<v-row v-if="projetos.length" class="d-flex justify-center">
+					<v-col
+v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
 						class="d-flex flex-column align-center">
 						<v-card :href="projeto.link" target="_blank" color="#8f88ba" dark>
-							<v-card-title>{{ projeto.titulo }}</v-card-title>
-
-							<iframe :src="`${projeto.link}/embed`" allowtransparency="true" width="485" height="402" frameborder="0"
-								scrolling="no" allowfullscreen></iframe>
-
+							<!-- icone do scratch -->
+					
+							<v-card-title>
+								{{ projeto.titulo }}
+								<v-icon >mdi-arrow-right</v-icon> 
+							</v-card-title>
 						</v-card>
 					</v-col>
 				</v-row>
@@ -48,28 +50,28 @@ const nomeAluno = deslugify(route.params.aluno)
 // Mapeamento de projetos por aluno (slug)
 const projetosPorAluno = {
 	'pedro-tomas-ribeiro-moura': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
 	],
 	'jose-pedro-pereira-santos': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147603884' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147603884' },
 	],
 	'diana-oliveira-mota': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147607415' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147607415' },
 	],
 	'franco-emmanuel-lagman': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147598472' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147598472' },
 	],
 	'afonso-goncalves-afonso': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147602123' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147602123' },
 	],
 	'lisa-silva-krol': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
 	],
 	'eduardo-goncalves-correia': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599302' },
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599302' },
 	],
-	'avan': [
-		{ titulo: 'Projeto no Scratch', link: 'https://scratch.mit.edu/projects/1147599972' },
+	'edgar-habibi': [
+		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599972' },
 	],
 	'professor': [
 		{ titulo: 'Projeto do Professor', link: 'https://scratch.mit.edu/projects/1146906303' },
