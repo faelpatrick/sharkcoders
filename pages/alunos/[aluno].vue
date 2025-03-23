@@ -75,6 +75,12 @@ const projetosPorAluno = {
 	'professor': [
 		{ titulo: 'Projeto do Professor', link: 'https://scratch.mit.edu/projects/1146906303' },
 	],
+	'vasco': [
+		{ titulo: 'Site: Mundo do FC Porto', link: 'https://mundodofcporto.vercel.app/' },
+	],
+	'taciane': [
+		{ titulo: 'Site: Primeiro Site', link: 'https://taciane.vercel.app/' },
+	],
 
 }
 

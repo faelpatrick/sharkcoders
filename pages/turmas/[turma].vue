@@ -45,15 +45,15 @@ const turmas = {
   },
   'pre-code': {
     nome: 'PRE-CODE EXPLORE & CREATE',
-    alunos: ['Daniela', 'Eduardo', 'Fernanda']
+    alunos: ['Alexandre Alves', 'Alexandre Enes', 'Beatriz', 'Guilherme', 'Inês', 'Luna', 'Pedro']
   },
   'code-teens': {
     nome: 'CODE TEENS | WEB DEVELOPMENT',
-    alunos: ['Gabriel', 'Helena', 'Igor']
+    alunos: ['Lucas', 'Miguel', 'Taciane', 'Vasco', 'Vinicius', 'Vitória']
   },
   'python-ai': {
     nome: 'PYTHON PROGRAMMER FOR AI',
-    alunos: ['João', 'Karina', 'Lucas']
+    alunos: ['Bruno', 'Gustavo', 'Vicente']
   }
 }
 
