@@ -14,9 +14,14 @@
 				</div>
 
 				<v-row v-if="projetos.length">
-					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6">
+					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
+						class="d-flex flex-column align-center">
 						<v-card :href="projeto.link" target="_blank" color="#8f88ba" dark>
 							<v-card-title>{{ projeto.titulo }}</v-card-title>
+
+							<iframe :src="`${projeto.link}/embed`" allowtransparency="true" width="485" height="402" frameborder="0"
+								scrolling="no" allowfullscreen></iframe>
+
 						</v-card>
 					</v-col>
 				</v-row>
