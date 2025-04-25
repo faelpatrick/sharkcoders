@@ -69,6 +69,9 @@ const projetosPorAluno = {
 	'lisa': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147599174' },
 	],
+	'lucas': [
+		{ titulo: 'Pokedex', link: 'https://pok-dex-gray.vercel.app' },
+	],
 	'tomas': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
 	],
