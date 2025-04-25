@@ -97,6 +97,9 @@ const projetosPorAluno = {
 	'vicente': [
 		{ titulo: 'Projetos Python', link: 'https://github.com/Imetralha1/Imetralha2' },
 	],
+	'vinicius': [
+		{ titulo: 'Primeiro Site', link: 'https://e-portifolio-one.vercel.app/' },
+	],
 
 }
 
