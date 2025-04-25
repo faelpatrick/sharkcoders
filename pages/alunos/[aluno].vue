@@ -14,7 +14,8 @@
 				</div>
 
 				<v-row v-if="projetos.length" class="d-flex justify-center">
-					<v-col v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
+					<v-col
+v-for="(projeto, index) in projetos" :key="index" cols="12" md="6"
 						class="d-flex flex-column align-center">
 						<v-card :href="projeto.link" target="_blank" color="#8f88ba" dark>
 							<!-- icone do scratch -->
@@ -71,6 +72,7 @@ const projetosPorAluno = {
 	],
 	'lucas': [
 		{ titulo: 'Pokedex', link: 'https://pok-dex-gray.vercel.app' },
+		{ titulo: 'GitHub', link: 'https://github.com/lucaslinAn' },
 	],
 	'tomas': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
