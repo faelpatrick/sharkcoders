@@ -74,6 +74,11 @@ const projetosPorAluno = {
 		{ titulo: 'Pokedex', link: 'https://pok-dex-gray.vercel.app' },
 		{ titulo: 'GitHub', link: 'https://github.com/lucaslinAn' },
 	],
+	'miguel': [
+		{ titulo: 'Site Subnautica', link: 'https://subnautica-two.vercel.app/' },
+		{ titulo: 'Portfólio', link: 'https://site-teste-topz.vercel.app/' },
+		{ titulo: 'GitHub', link: 'https://github.com/PTmiguel-ggs' },
+	],
 	'tomas': [
 		{ titulo: 'Jogo dos Presentes no Scratch', link: 'https://scratch.mit.edu/projects/1147600234' },
 	],
